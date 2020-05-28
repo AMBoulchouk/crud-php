@@ -27,7 +27,7 @@
                                 Nombre libro:
                             </div>
                             <div class="col-12 col-md-6">
-                                <input type="text" name="nombre" require>
+                                <input type="text" name="nombre">
                             </div>
                         </div>
                         <div class="row">
@@ -35,7 +35,7 @@
                                 Autor:
                             </div>
                             <div class="col-12 col-md-6">
-                                <input type="text" name="autor" require>
+                                <input type="text" name="autor">
                             </div>
                         </div>
                         <div class="row">
@@ -43,12 +43,12 @@
                                 Fecha Edicion:
                             </div>
                             <div class="col-12 col-md-6">
-                                <input type="text" name="edicion" require>
+                                <input type="date" name="edicion">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-12 col-md-6">
-                                <input type="hidden" name="insertar" value="insertar" require>
+                                <input type="hidden" name="insertar" value="insertar">
                             </div>
                         </div>
                         <div class="row">
